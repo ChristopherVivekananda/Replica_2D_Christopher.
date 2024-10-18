@@ -1,21 +1,342 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <title>Mercado Preso Brasil - Frete Pago no mesmo dia</title>
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
 </head>
 <body>
-    <h1>formulário</h1>
-    <form action="/action_page.php">
-    <label for="fname">Nome:</label><br>
-    <input type="text" id="fname" name="fname"><br>
-    <label for="lname">Senha:</label><br>
-    <input type="pwd" id="lname" name="lname"><br><br>
-    <input type="submit" value="Submit">
-    <input type="reset" value="Reset">
-    <input type="button" value="Video aleatório no youtube" onclick="window.location.href='https://www.youtube.com/shorts/OImopdGYWPM';">
-</form>
+    <div class="barradepesquisa">
+        <input class="pesquisa" type="text" name="" placeholder="Buscar produtos, marcas e muito mais...">
+    </div>
+<nav>
+    <div class="logo">
+        <a href="index.html"><img src="logo.png" alt="logo"></a>
+    </div>
+    <ul class="menu">
+        <li><a href="">Categorias<ion-icon name="chevron-down-outline"></ion-icon></a></li>
+        <li><a href="">Ofertas</a></li>
+        <li><a href="">Cupons</a></li>
+        <li><a href="">Supermercado</a></li>
+        <li><a href="">Moda</a></li>
+        <li><a href="">Mercado Play</a></li>
+        <li><a href="">Vender</a></li>
+        <li><a href="">Contato</a></li>
+    </ul>
+    <ul class="menu2">
+        <li><a href="">Crie a sua conta</a></li>
+        <li><a href="">Entre</a></li>
+        <li><a href="">Compras</a></li>
+        <li><a href=""><i class="fa-sharp fa-thin fa-cart-shopping"></i></a></li>
+    </ul>
+</nav>
+<section class="carousel" aria-label="Gallery">
+    <ol class="carousel__viewport">
+      <li id="carousel__slide1"
+          tabindex="0"
+          class="carousel__slide1">
+        <div class="carousel__snapper">
+          <a href="#carousel__slide4"
+             class="carousel__prev">Go to last slide</a>
+          <a href="#carousel__slide2"
+             class="carousel__next">Go to next slide</a>
+        </div>
+      </li>
+      <li id="carousel__slide2"
+          tabindex="0"
+          class="carousel__slide2">
+        <div class="carousel__snapper"></div>
+        <a href="#carousel__slide1"
+           class="carousel__prev">Go to previous slide</a>
+        <a href="#carousel__slide3"
+           class="carousel__next">Go to next slide</a>
+      </li>
+      <li id="carousel__slide3"
+          tabindex="0"
+          class="carousel__slide3">
+        <div class="carousel__snapper"></div>
+        <a href="#carousel__slide2"
+           class="carousel__prev">Go to previous slide</a>
+        <a href="#carousel__slide4"
+           class="carousel__next">Go to next slide</a>
+      </li>
+      <li id="carousel__slide4"
+          tabindex="0"
+          class="carousel__slide4">
+        <div class="carousel__snapper"></div>
+        <a href="#carousel__slide3"
+           class="carousel__prev">Go to previous slide</a>
+        <a href="#carousel__slide1"
+           class="carousel__next">Go to first slide</a>
+      </li>
+    </ol>
+    <aside class="carousel__navigation">
+      <ol class="carousel__navigation-list">
+        <li class="carousel__navigation-item">
+          <a href="#carousel__slide1"
+             class="carousel__navigation-button">Go to slide 1</a>
+        </li>
+        <li class="carousel__navigation-item">
+          <a href="#carousel__slide2"
+             class="carousel__navigation-button">Go to slide 2</a>
+        </li>
+        <li class="carousel__navigation-item">
+          <a href="#carousel__slide3"
+             class="carousel__navigation-button">Go to slide 3</a>
+        </li>
+        <li class="carousel__navigation-item">
+          <a href="#carousel__slide4"
+             class="carousel__navigation-button">Go to slide 4</a>
+        </li>
+      </ol>
+    </aside>
+  </section>
+
+  <div class="body">
+    <div class="card">
+      <h3>Frete grátis</h3>
+      <img src="https://http2.mlstatic.com/frontend-assets/homes-palpatine/dynamic-access-desktop/new-buyer.svg">
+      <div>
+        <span>Benefício por ser sua primeira compra.</span>
+        <button>Saiba mais</button>
+      </div>
+    </div>
+  
+    <div class="card">
+      <h3>Insira sua localização</h3>
+      <img src="https://http2.mlstatic.com/frontend-assets/homes-palpatine/dynamic-access-desktop/location.svg">
+      <div>
+        <span>Confira os custos e prazos de entrega.</span>
+        <button>Saiba mais</button>
+      </div>
+    </div>
+  
+    <div class="card">
+      <h3>Entre na sua conta</h3>
+      <img src="https://http2.mlstatic.com/frontend-assets/homes-palpatine/dynamic-access-desktop/registration-da.svg">
+      <div>
+        <span>Aproveite ofertas para comprar tudo que quiser.</span>
+        <button>Saiba mais</button>
+      </div>
+    </div>
+  
+    <div class="card">
+      <h3>Meios de pagamento</h3>
+      <img src="https://http2.mlstatic.com/frontend-assets/homes-palpatine/dynamic-access-desktop/payment-methods.svg">
+      <div>
+        <span>Pague suas compras com rapidez e segurança.</span>
+        <button>Saiba mais</button>
+      </div>
+    </div>
+  
+    <div class="card">
+      <h3>Menos de R$100</h3>
+      <img src="https://http2.mlstatic.com/frontend-assets/homes-palpatine/dynamic-access-desktop/mlb-low-price-product.svg">
+      <div>
+        <span>Confira produtos com preços baixos.</span>
+        <button>Saiba mais</button>
+      </div>
+    </div>
+  
+    <div class="card">
+      <h3>Mais vendidos</h3>
+      <img src="https://http2.mlstatic.com/frontend-assets/homes-palpatine/dynamic-access-desktop/top-sale.svg">
+      <div>
+        <span>Explore os produtos que são tendência.</span>
+        <button>Saiba mais</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="body2">
+    <ul class="product-list">
+      <li class="product-item">
+        <img src="https://http2.mlstatic.com/D_Q_NP_2X_699212-MLB74397970443_022024-T.webp" alt="Produto 1">
+        <div class="product-info">
+          <h3 class="product-title">Fantasia Infantil Super Mario Bros Luigi Envio Imediato</h3>
+          <p class="product-price">R$68,99</p>
+          <h5 class="product-x">em 12x R$5,75</h5>
+        </div>
+      </li>
+      <li class="product-item">
+        <img src="https://http2.mlstatic.com/D_Q_NP_2X_699212-MLB74397970443_022024-T.webp" alt="Produto 1">
+        <div class="product-info">
+          <h3 class="product-title">Fantasia Infantil Super Mario Bros Luigi Envio Imediato</h3>
+          <p class="product-price">R$68,99</p>
+          <h5 class="product-x">em 12x R$5,75</h5>
+        </div>
+      </li>
+      <li class="product-item">
+        <img src="https://http2.mlstatic.com/D_Q_NP_2X_699212-MLB74397970443_022024-T.webp" alt="Produto 1">
+        <div class="product-info">
+          <h3 class="product-title">Fantasia Infantil Super Mario Bros Luigi Envio Imediato</h3>
+          <p class="product-price">R$68,99</p>
+          <h5 class="product-x">em 12x R$5,75</h5>
+        </div>
+      </li>
+      <li class="product-item">
+        <img src="https://http2.mlstatic.com/D_Q_NP_2X_699212-MLB74397970443_022024-T.webp" alt="Produto 1">
+        <div class="product-info">
+          <h3 class="product-title">Fantasia Infantil Super Mario Bros Luigi Envio Imediato</h3>
+          <p class="product-price">R$68,99</p>
+          <h5 class="product-x">em 12x R$5,75</h5>
+        </div>
+      </li>
+      <li class="product-item">
+        <img src="https://http2.mlstatic.com/D_Q_NP_2X_699212-MLB74397970443_022024-T.webp" alt="Produto 1">
+        <div class="product-info">
+          <h3 class="product-title">Fantasia Infantil Super Mario Bros Luigi Envio Imediato</h3>
+          <p class="product-price">R$68,99</p>
+          <h5 class="product-x">em 12x R$5,75</h5>
+        </div>
+      </li>
+      <li class="product-item">
+        <img src="https://http2.mlstatic.com/D_Q_NP_2X_699212-MLB74397970443_022024-T.webp" alt="Produto 1">
+        <div class="product-info">
+          <h3 class="product-title">Fantasia Infantil Super Mario Bros Luigi Envio Imediato</h3>
+          <p class="product-price">R$68,99</p>
+          <h5 class="product-x">em 12x R$5,75</h5>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <div class="body3">
+    <ul class="product-list">
+      <li class="product-item">
+        <img src="https://http2.mlstatic.com/D_Q_NP_2X_699212-MLB74397970443_022024-T.webp" alt="Produto 1">
+        <div class="product-info">
+          <h3 class="product-title">Fantasia Infantil Super Mario Bros Luigi Envio Imediato</h3>
+          <p class="product-price">R$68,99</p>
+          <h5 class="product-x">em 12x R$5,75</h5>
+        </div>
+      </li>
+      <li class="product-item">
+        <img src="https://http2.mlstatic.com/D_Q_NP_2X_699212-MLB74397970443_022024-T.webp" alt="Produto 1">
+        <div class="product-info">
+          <h3 class="product-title">Fantasia Infantil Super Mario Bros Luigi Envio Imediato</h3>
+          <p class="product-price">R$68,99</p>
+          <h5 class="product-x">em 12x R$5,75</h5>
+        </div>
+      </li>
+      <li class="product-item">
+        <img src="https://http2.mlstatic.com/D_Q_NP_2X_699212-MLB74397970443_022024-T.webp" alt="Produto 1">
+        <div class="product-info">
+          <h3 class="product-title">Fantasia Infantil Super Mario Bros Luigi Envio Imediato</h3>
+          <p class="product-price">R$68,99</p>
+          <h5 class="product-x">em 12x R$5,75</h5>
+        </div>
+      </li>
+      <li class="product-item">
+        <img src="https://http2.mlstatic.com/D_Q_NP_2X_699212-MLB74397970443_022024-T.webp" alt="Produto 1">
+        <div class="product-info">
+          <h3 class="product-title">Fantasia Infantil Super Mario Bros Luigi Envio Imediato</h3>
+          <p class="product-price">R$68,99</p>
+          <h5 class="product-x">em 12x R$5,75</h5>
+        </div>
+      </li>
+      <li class="product-item">
+        <img src="https://http2.mlstatic.com/D_Q_NP_2X_699212-MLB74397970443_022024-T.webp" alt="Produto 1">
+        <div class="product-info">
+          <h3 class="product-title">Fantasia Infantil Super Mario Bros Luigi Envio Imediato</h3>
+          <p class="product-price">R$68,99</p>
+          <h5 class="product-x">em 12x R$5,75</h5>
+        </div>
+      </li>
+      <li class="product-item">
+        <img src="https://http2.mlstatic.com/D_Q_NP_2X_699212-MLB74397970443_022024-T.webp" alt="Produto 1">
+        <div class="product-info">
+          <h3 class="product-title">Fantasia Infantil Super Mario Bros Luigi Envio Imediato</h3>
+          <p class="product-price">R$68,99</p>
+          <h5 class="product-x">em 12x R$5,75</h5>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <div class="body3">
+    <ul class="product-list2">
+      <li class="product-item2">
+        <img src="D_NQ_649416-MLA79772165796_102024-OO.jpg" alt="Produto 1">
+        <div class="product-info">
+            <h2 class="h21">ATÉ 50% OFF</h2>
+            <h2 class="h2">ATIVE OS CUPONS</h2>
+            <button class="btn-product">VER MAIS</button>
+        </div>
+      </li>
+      <li class="product-item2">
+        <img src="D_NQ_948478-MLA79005086293_092024-OO.jpg" alt="Produto 1">
+        <div class="product-info">
+            <h2 class="h21">ATÉ 50% OFF</h2>
+            <h2 class="h2">ATIVE OS CUPONS</h2>
+            <button class="btn-product">VER MAIS</button>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <div class="body4">
+    <ul class="product-list">
+      <li class="product-item">
+        <img src="https://http2.mlstatic.com/D_Q_NP_2X_699212-MLB74397970443_022024-T.webp" alt="Produto 1">
+        <div class="product-info">
+          <h3 class="product-title">Fantasia Infantil Super Mario Bros Luigi Envio Imediato</h3>
+          <p class="product-price">R$68,99</p>
+          <h5 class="product-x">em 12x R$5,75</h5>
+        </div>
+      </li>
+      <li class="product-item">
+        <img src="https://http2.mlstatic.com/D_Q_NP_2X_699212-MLB74397970443_022024-T.webp" alt="Produto 1">
+        <div class="product-info">
+          <h3 class="product-title">Fantasia Infantil Super Mario Bros Luigi Envio Imediato</h3>
+          <p class="product-price">R$68,99</p>
+          <h5 class="product-x">em 12x R$5,75</h5>
+        </div>
+      </li>
+      <li class="product-item">
+        <img src="https://http2.mlstatic.com/D_Q_NP_2X_699212-MLB74397970443_022024-T.webp" alt="Produto 1">
+        <div class="product-info">
+          <h3 class="product-title">Fantasia Infantil Super Mario Bros Luigi Envio Imediato</h3>
+          <p class="product-price">R$68,99</p>
+          <h5 class="product-x">em 12x R$5,75</h5>
+        </div>
+      </li>
+      <li class="product-item">
+        <img src="https://http2.mlstatic.com/D_Q_NP_2X_699212-MLB74397970443_022024-T.webp" alt="Produto 1">
+        <div class="product-info">
+          <h3 class="product-title">Fantasia Infantil Super Mario Bros Luigi Envio Imediato</h3>
+          <p class="product-price">R$68,99</p>
+          <h5 class="product-x">em 12x R$5,75</h5>
+        </div>
+      </li>
+      <li class="product-item">
+        <img src="https://http2.mlstatic.com/D_Q_NP_2X_699212-MLB74397970443_022024-T.webp" alt="Produto 1">
+        <div class="product-info">
+          <h3 class="product-title">Fantasia Infantil Super Mario Bros Luigi Envio Imediato</h3>
+          <p class="product-price">R$68,99</p>
+          <h5 class="product-x">em 12x R$5,75</h5>
+        </div>
+      </li>
+      <li class="product-item">
+        <img src="https://http2.mlstatic.com/D_Q_NP_2X_699212-MLB74397970443_022024-T.webp" alt="Produto 1">
+        <div class="product-info">
+          <h3 class="product-title">Fantasia Infantil Super Mario Bros Luigi Envio Imediato</h3>
+          <p class="product-price">R$68,99</p>
+          <h5 class="product-x">em 12x R$5,75</h5>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
